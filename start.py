@@ -114,14 +114,6 @@ async def _(e):
     await bash(e)
 
 
-########## AUTO ###########
-
-
-@cbot.on(events.NewMessage(incoming=True))
-async def _(e):
-    await encod(e)
-
-
 ########### Start ############
 
 LOGS.info("Bot has started.")
